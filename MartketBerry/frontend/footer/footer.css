@@ -8,11 +8,13 @@
 .css-gh58u4 {
   display: flex;
   overflow: hidden;
+  width: 800px;
   padding-bottom: 24px;
 }
 .css-1rhquhe {
   float: left;
   width: 534px;
+  height: 300px;
 }
 .css-r0omzn {
   padding: 29px 0px 6px;
@@ -21,7 +23,7 @@
   color: rgb(51, 51, 51);
   line-height: 24px;
 }
-css-1417oa1 {
+.css-1417oa1 {
   display: flex;
   overflow: hidden;
   padding-top: 16px;
@@ -284,9 +286,7 @@ canvas, img, video {
 
 .css-1yspb9o {
   display: flex;
-  width: 267px
-px
-;
+  width: 267px;
 }
 .css-hmj395 {
   width: 102px;
@@ -347,7 +347,7 @@ px
   line-height: 0;
   text-indent: -9999px;
   opacity: 1;
-  transition: background 0.5s ease 0s;
+  transition: 0.5s ease 0s;
 }
 
 html, button, input, select, textarea {
