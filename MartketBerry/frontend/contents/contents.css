@@ -1,7 +1,8 @@
 @media (min-width: 992px) {.container {width: 940px;}}
 @media (min-width: 1200px) {.container {width: 1050px;}}
-
-.contents{
+.banner{width: 1050px;
+        }
+.products{
     margin: 0;
 }
 .section{
@@ -99,7 +100,7 @@
 
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
-    top: 0px;
+    top: 90px;
     bottom: 0px;
     z-index: 1;
     display: flex;
