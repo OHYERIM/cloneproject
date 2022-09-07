@@ -37,13 +37,17 @@ box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
 .dropdown-products>li:hover .sub{ display: block; }
 
 .deliver_icon{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
         border-style: solid;
         border-width: 1px;
         border-radius: 20px;
         color:lightgrey;
-        width: 40px;
+        width: 120px;
         height: 25px;
-        font-size: 12px;
+        font-size: 13px;
         text-decoration: none;}
 .deliver_txt{color:#9E007F;
     }
