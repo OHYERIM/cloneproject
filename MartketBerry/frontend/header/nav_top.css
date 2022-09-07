@@ -1,6 +1,7 @@
 
 @media (min-width: 992px) {.container {width: 940px;}}
 @media (min-width: 1200px) {.container {width: 1050px;}}
+
 a:hover { color: #9E007F; }
 
 .nav_top{margin: 8px 0 20px 0;
