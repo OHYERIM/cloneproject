@@ -56,3 +56,17 @@ box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
         }
 
 .deliver_txt{color:#9E007F;}
+
+.cartBox{
+  z-index: index 2;
+  position: absolute;
+  bottom: 190px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-color: #9E007F;
+  opacity: 0.8;
+  border-radius: 30px;
+  padding: 10px;
+}
