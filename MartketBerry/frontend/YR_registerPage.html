@@ -210,10 +210,10 @@
                     <div>배송안내</div>
                     <div>
                     <select class="form-select" aria-label="Default select example" style="width: 300px;">
-                    <option selected>delivery-type</option>
-                    <option value="1">일반배송</option>
-                    <option value="2">낮배송</option>
-                    <option value="3">샛별배송</option>
+                    <option selected>배송선택</option>
+                    <option value="1" >일반배송</option>
+                    <option value="2" >낮배송</option>
+                    <option value="3" >샛별배송</option>
                    </select>
                    <div class="note">23시 전 주문 시 내일 아침 7시 전 도착</br>(대구·부산·울산 샛별배송 운영시간 별도 확인)</div>
                     </div>
@@ -221,14 +221,14 @@
                 <div class="separation">
                     <div>판매자</div>
                     <div>
-                    <input type="text" class="form-control" placeholder="seller" style="width: 300px;">
+                    <input type="text" class="form-control" placeholder="업체명" style="width: 300px;">
                     </div>
                 </div>
                 <div class="separation">
                     <div>포장타입</div>
                     <div>
                     <select class="form-select" aria-label="Default select example" style="width: 300px;">
-                    <option selected>packing-type</option>
+                    <option selected>포장선택</option>
                     <option value="1">상온(종이포장)</option>
                     <option value="2">냉장(종이포장)</option>
                     <option value="3">냉동(종이포장)</option>
@@ -237,17 +237,23 @@
                     </div>
                 </div>
                 <div class="separation">
-                    <div>포장단위</div>
+                    <div>판매단위</div>
                     <div>
-                    <input type="unit" class="form-control" placeholder="packing-unit" style="width: 300px;">
+                    <input type="unit" class="form-control" placeholder="ex) 개, 팩, 봉" style="width: 300px;">
                 </div>
             </div>
                 <div class="separation">
                     <div>중량/용량</div>
                     <div>
-                    <input type="unit" class="form-control" placeholder="weight/capacity" style="width: 300px;">
+                    <input type="unit" class="form-control" placeholder="ex) kg, 팩, 봉 " style="width: 300px;">
                 </div>
             </div>
+            <div class="separation">
+              <div>원산지</div>
+              <div>
+              <input type="text" class="form-control" placeholder="ex) 국산 or 국가명" style="width: 300px;">
+              </div>
+          </div>
             <div class="separation">
                 <div>유통기한</div>
                 <div>
@@ -257,14 +263,16 @@
             <div class="separation">
                 <div>재고수량</div>
                 <div>
-                <input type="number" class="form-control" placeholder="number" style="width: 300px;">
+                <input type="number" class="form-control" placeholder="수량체크" style="width: 300px;">
                 </div>
             </div>
-
 	        </form>
         
+  </div>
 </div>
 
+<div class="d-grid col-4" style=" margin:25px 0 0 575px;">
+  <button class="btn btn-primary" type="button">등록</button>
 </div>
 </div>
 

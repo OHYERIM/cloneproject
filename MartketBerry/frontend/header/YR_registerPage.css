@@ -4,7 +4,7 @@
 }
 
 .separation{
-    padding-top: 18px;
+    padding-top: 20px;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -12,4 +12,11 @@
 
 .note{
     font-size: 12px;
+}
+
+.register_P .btn-primary{
+    background-color: #9E007F;
+    color: #f2f2f2;
+    opacity: 0.8;
+    border-radius: 6px;
 }
