@@ -1,18 +1,11 @@
+@media (min-width: 992px) {.container {width: 940px;}}
+@media (min-width: 1200px) {.container {width: 1050px;}}
 ol, ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 /* css 태그 기본값 삭제할지 물어볼 것 */
-
-
-.mypage_all {
-    
-}
-
-
-
-
 
 .mypage_top {
     width: 100%;

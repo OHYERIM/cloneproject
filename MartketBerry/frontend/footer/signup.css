@@ -1,3 +1,5 @@
+@media (min-width: 992px) {.container {width: 940px;}}
+@media (min-width: 1200px) {.container {width: 1050px;}}
 .signup-all{
     min-width: 1050px;
       margin-top: 50px;

@@ -1,3 +1,5 @@
+@media (min-width: 992px) {.container {width: 940px;}}
+@media (min-width: 1200px) {.container {width: 1050px;}}
 .container_v{
     width: 1050px;
     margin: 0px auto;

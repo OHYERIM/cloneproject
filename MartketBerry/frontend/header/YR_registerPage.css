@@ -1,0 +1,15 @@
+.register_P{
+    padding-top: 30px;
+    padding-left: 17px;
+}
+
+.separation{
+    padding-top: 18px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.note{
+    font-size: 12px;
+}
