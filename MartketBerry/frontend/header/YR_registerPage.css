@@ -1,13 +1,26 @@
 .register_P{
-    padding-top: 30px;
+    padding-top: 25px;
     padding-left: 17px;
 }
 
 .separation{
-    padding-top: 20px;
+    padding-top: 15px;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
+    align-items: center;
+}
+
+.form-control{
+    width: 300px !important; 
+    height: 35px !important; 
+    font-size: 14px !important;
+}
+
+.form-select{
+    width: 300px !important; 
+    height: 35px !important; 
+    font-size: 14px !important;
 }
 
 .note{
